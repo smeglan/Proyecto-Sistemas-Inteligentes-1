@@ -35,20 +35,20 @@ bower_components
 .lock-wscript
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
-build/Release
+client/build/Release
 
 # Dependency directories
-node_modules/
-jspm_packages/
+client/node_modules/
+client/jspm_packages/
 
 # TypeScript v1 declaration files
-typings/
+client/typings/
 
 # TypeScript cache
-*.tsbuildinfo
+client/*.tsbuildinfo
 
 # Optional npm cache directory
-.npm
+client/.npm
 
 # Optional eslint cache
 .eslintcache
@@ -96,6 +96,10 @@ dist
 
 # FuseBox cache
 .fusebox/
+
+#Python
+server/venv
+server/__pycache__
 
 # DynamoDB Local files
 .dynamodb/
