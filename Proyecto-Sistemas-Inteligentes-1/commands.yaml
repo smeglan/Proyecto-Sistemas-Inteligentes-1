@@ -1,0 +1,9 @@
+ejecutar server local:
+  -set FLASK_APP=api
+  -flask run
+ejecutar server ip publica:
+  -set FLASK_APP=api
+  -flask run --host=0.0.0.0
+ejecutar client:
+  -npm i
+  -npm start
